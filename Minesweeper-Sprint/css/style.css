@@ -1,0 +1,84 @@
+.body{
+    background-image: url('image.jpg');
+    margin: 100px;
+}
+
+.gameBoard{
+    background-image: url('image.jpg');
+}
+
+table {
+    background-color: rgb(39, 85, 236);
+    margin:auto;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+
+
+td {
+    padding: 5px;
+    border: 2px solid rgba(16, 6, 36, 0.336);
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    rgb(146, 221, 250) 0%, rgba(32, 16, 11, 0.61) 100%);
+    width: 50px;
+    height: 50px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 15px 42px;
+    border-radius: 15px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 10px;
+    cursor: pointer;
+    
+}
+
+
+.board{
+    background-image: url('image.jpg');
+    width: 1000px;
+    height: max-content;
+    padding: 20px;
+    margin: inherit;
+    
+}
+
+.barbie {
+
+    text-align: center;
+    font-size: 15px;
+  }
+  td :hover{
+      color: black;
+  }
+  .time{
+      background-color: blue;
+  }
+  .seconds-counter{
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+  }
+.choose{
+text-align: center;
+}
+.button1{
+    text-align: center;
+}
+
+td.hidden {
+    background-image: none;
+}

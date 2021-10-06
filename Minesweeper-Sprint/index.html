@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minesweepind</title>
+</head>
+<body onload="init()">
+
+    <div class="boardTD">
+        <div class="buttons">
+            <div class="seconds-counter">Game Time: <span class="time">0</span> seconds, Lifes: <span class="lifes">3</span></div>
+            <button class="start-Button" onclick="buildBoard(gSize.SIZE, gSize.MINES)" >😃</button>
+            <h3 class="choose"> Choose Level</h3>
+            <button class= "button1" onclick="buildBoard(gLevel1.SIZE,gLevel1.MINES)" >Easy (4)</button>
+            <button class= "button2" onclick="buildBoard(gLevel2.SIZE,gLevel2.MINES)" >Hard (8)</button>
+            <button class= "button3" onclick="buildBoard(gLevel3.SIZE,gLevel3.MINES)" >Extreme! (12)</button>
+        </div>
+
+        <table class="table">
+            <tbody class="Board"></tbody>
+        </table>
+       
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+</body>
+</html>
